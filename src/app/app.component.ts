@@ -7,6 +7,7 @@ import { LinkedList } from "./linkedList/linkedList";
   styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
+  title: string;
   constructor() {
     const linkedList = new LinkedList(10);
     linkedList.append(5);
