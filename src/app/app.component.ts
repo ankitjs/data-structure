@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { LinkedList } from "./linkedList";
+import { LinkedList } from "./linkedList/linkedList";
 
 @Component({
   selector: "app-root",
